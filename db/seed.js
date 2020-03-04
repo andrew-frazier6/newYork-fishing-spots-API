@@ -6,6 +6,7 @@ const fishData = data.map(item => {
   (fishingSpots.name = item.name),
     (fishingSpots.fish_types = item.fish_spec),
     (fishingSpots.public_access = item.public_acc),
+    (fishingSpots.county = item.county),
     (fishingSpots.location = item.location);
   return fishingSpots;
 });

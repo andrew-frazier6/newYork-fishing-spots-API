@@ -5,15 +5,25 @@ const fishingSpot = require("./db/modules/fishingSpot");
 app.get("/", function(req, res) {
   fishingSpot.find({}).then(fishingData => res.json(fishingData));
 });
-app.get("/name", function(req, res) {
-  fishingSpot.find({ name: req.params.name }).then(fishingSpot => {
+app.get("/public_access/:public_access", function(req, res) {
+  fishingSpot
+    .find({ public_access: req.params.public_access })
+    .then(fishingSpot => {
+      res.json(fishingSpot);
+    });
+});
+app.get("/fish_types/:fish_types", function(req, res) {
+  fishingSpot.find({ fish_types: req.params.fish_types }).then(fishingSpot => {
+    res.json(fishingSpot);
+  });
+});
+app.get("/county/:county", function(req, res) {
+  fishingSpot.find({ county: req.params.county }).then(fishingSpot => {
     res.json(fishingSpot);
   });
 });
 
-//   (fishingSpots.name = item.name),
-//     (fishingSpots.fish_types = item.fish_spec),
-//     (fishingSpots.public_access = item.public_acc),
-//     (fishingSpots.location = item.location);
-
 app.listen(3000, () => console.log("listening on port 3000"));
+
+// set conditional for get request and for seeding so that both are set
+// to lower case
