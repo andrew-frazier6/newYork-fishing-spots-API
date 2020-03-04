@@ -3058,7 +3058,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-2dfm_ixug.gpum",
     "name": "Kayaderosseras Creek",
-    "fish_spec": "Brown Trout* - Rainbow Trout",
+    "fish_spec": ["Brown Trout", "Rainbow Trout"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31482.html"
@@ -3082,7 +3082,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-vq9r~r6za_hfcp",
     "name": "West Branch Owego Creek",
-    "fish_spec": "Brook Trout - Brown Trout*",
+    "fish_spec": ["Brook Trout", "Brown Trout"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31498.html"
@@ -3106,7 +3106,19 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-pigh~xk26.v3df",
     "name": "Hudson River (Lower)",
-    "fish_spec": "Smallmouth Bass - Largemouth Bass - Sunfish - Yellow Perch - Crappie - Tiger Musky - Northern Pike - Walleye - Carp - Channel Catfish - Striped bass",
+    "fish_spec": [
+      "Smallmouth Bass",
+      "Largemouth Bass",
+      "Sunfish",
+      "Yellow Perch",
+      "Crappie",
+      "Tiger Musky",
+      "Northern Pike",
+      "Walleye",
+      "Carp",
+      "Channel Catfish",
+      "Striped bass"
+    ],
     "comments": "Anglers fishing for migratory marine species must enroll in the recreational marine fishing registry (518-402-8843).",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31450.html"
@@ -3130,7 +3142,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-dx9u~b6ju~2hu6",
     "name": "North Branch Saranac River",
-    "fish_spec": "Brook Trout - Brown Trout*",
+    "fish_spec": ["Brook Trout", "Brown Trout"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31437.html"
@@ -3154,7 +3166,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-3zhc~sqna~ftmd",
     "name": "East Branch Delaware River (Lower)",
-    "fish_spec": "Brook Trout - Brown Trout* - Rainbow Trout",
+    "fish_spec": ["Brook Trout", "Brown Trout", "Rainbow Trout"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31440.html"
@@ -3178,7 +3190,12 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-9btp-zb5v_4dce",
     "name": "Cattaraugus Creek (Lower)",
-    "fish_spec": "Brown Trout* - Steelhead* - Smallmouth Bass - Channel Catfish",
+    "fish_spec": [
+      "Brown Trout",
+      "Steelhead",
+      "Smallmouth Bass",
+      "Channel Catfish"
+    ],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31420.html"
@@ -3202,7 +3219,17 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-kmiz-dv36-35pe",
     "name": "Chaumont River",
-    "fish_spec": "Smallmouth Bass - Largemouth Bass - Sunfish - Yellow Perch - Crappie - Northern Pike - Walleye - Carp - Channel Catfish",
+    "fish_spec": [
+      "Smallmouth Bass",
+      "Largemouth Bass",
+      "Sunfish",
+      "Yellow Perch",
+      "Crappie",
+      "Northern Pike",
+      "Walleye",
+      "Carp",
+      "Channel Catfish"
+    ],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31423.html"
