@@ -451,7 +451,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-cy8g-dnpd-k5ij",
     "name": "Otselic River",
-    "fish_spec": "Brown Trout - Walleye",
+    "fish_spec": ["Brown Trout", "Walleye"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31436.html"
@@ -475,7 +475,13 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-t8ct-k4ak.jm4t",
     "name": "Chemung River",
-    "fish_spec": "Smallmouth Bass - Tiger Musky* - Walleye - Carp - Channel Catfish",
+    "fish_spec": [
+      "Smallmouth Bass",
+      "Tiger Musky",
+      "Walleye",
+      "Carp",
+      "Channel Catfish"
+    ],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31435.html"
@@ -499,7 +505,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-sfit~9xt5.mbwe",
     "name": "East Branch Delaware River (Lower)",
-    "fish_spec": "Brook Trout - Brown Trout* - Rainbow Trout",
+    "fish_spec": ["Brook Trout", "Brown Trout", "Rainbow Trout"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31440.html"
@@ -523,7 +529,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-n2ec-fwgs.5dzt",
     "name": "Little Hoosic River",
-    "fish_spec": "Brown Trout",
+    "fish_spec": ["Brown Trout"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31479.html"
@@ -547,7 +553,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-75bm.dytv.3zyc",
     "name": "South Sandy Creek",
-    "fish_spec": "Brook Trout*",
+    "fish_spec": ["Brook Trout"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31420.html"
@@ -571,7 +577,19 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-yxnh.be5q~5e48",
     "name": "Hudson River (Lower)",
-    "fish_spec": "Smallmouth Bass - Largemouth Bass - Sunfish - Yellow Perch - Crappie - Tiger Musky - Northern Pike - Walleye - Carp - Channel Catfish - Striped bass",
+    "fish_spec": [
+      "Smallmouth Bass",
+      "Largemouth Bass",
+      "Sunfish",
+      "Yellow Perch",
+      "Crappie",
+      "Tiger Musky",
+      "Northern Pike",
+      "Walleye",
+      "Carp",
+      "Channel Catfish",
+      "Striped bass"
+    ],
     "comments": "Anglers fishing for migratory marine species must enroll in the recreational marine fishing registry (518-402-8843).",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31504.html"
