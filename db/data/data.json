@@ -1009,7 +1009,7 @@
       "@url": "http://www.dec.ny.gov/outdoor/31460.html"
     },
     "county": "Madison",
-    "public_acc": "Shore Fishing - Public Fishing Rights",
+    "public_acc": ["Shore Fishing"],
     "access_own": "Public Easement",
     "site_wl": {
       "@url": "http://www.dec.ny.gov/outdoor/63442.html"
@@ -1033,7 +1033,7 @@
       "@url": "http://www.dec.ny.gov/outdoor/31440.html"
     },
     "county": "Delaware",
-    "public_acc": "Shore Fishing - Public Fishing Rights",
+    "public_acc": ["Shore Fishing"],
     "access_own": "Public Easement",
     "site_wl": {
       "@url": "http://www.dec.ny.gov/docs/fish_marine_pdf/pfrwestbranch.pdf"
@@ -1067,7 +1067,7 @@
       "@url": "http://www.dec.ny.gov/outdoor/31493.html"
     },
     "county": "St. Lawrence",
-    "public_acc": "Boat Launch (Hand Launch)",
+    "public_acc": ["Boat Launc)"],
     "access_own": "DEC",
     "site_wl": {
       "@url": "http://www.dec.ny.gov/outdoor/23866.html"
@@ -1101,7 +1101,7 @@
       "@url": "http://www.dec.ny.gov/outdoor/31493.html"
     },
     "county": "Jefferson",
-    "public_acc": "Shore Fishing - Boat Launch (Trailer Unimproved)",
+    "public_acc": ["Shore Fishing", "Boat Launch"],
     "access_own": "Indian River State Wildlife Management Area (DEC)",
     "site_wl": {
       "@url": "http://www.dec.ny.gov/outdoor/23866.html"
@@ -1125,7 +1125,7 @@
       "@url": "http://www.dec.ny.gov/outdoor/31443.html"
     },
     "county": "Essex",
-    "public_acc": "Shore Fishing - Public Fishing Rights",
+    "public_acc": ["Shore Fishing"],
     "access_own": "Public Easement",
     "site_wl": {
       "@url": "http://www.dec.ny.gov/docs/fish_marine_pdf/pfrebausable.pdf"
@@ -1155,7 +1155,7 @@
       "@url": "http://www.dec.ny.gov/outdoor/31435.html"
     },
     "county": "Chemung",
-    "public_acc": "Boat Launch (Trailer Improved)",
+    "public_acc": ["Boat Launch"],
     "access_own": "DEC",
     "site_wl": {
       "@url": "http://www.dec.ny.gov/outdoor/23906.html"
@@ -1176,7 +1176,7 @@
     "fish_spec": ["Rainbow Trout"],
     "comments": "None",
     "county": "Schuyler",
-    "public_acc": "Shore Fishing - Public Fishing Rights",
+    "public_acc": ["Shore Fishing"],
     "access_own": "Public Easement",
     "site_wl": {
       "@url": "http://www.dec.ny.gov/docs/fish_marine_pdf/pfrcathrneck.pdf"
@@ -1200,7 +1200,7 @@
       "@url": "http://www.dec.ny.gov/outdoor/31436.html"
     },
     "county": "Chenango",
-    "public_acc": "Boat Launch (Hand Launch)",
+    "public_acc": ["Boat Launch"],
     "access_own": "DEC",
     "site_wl": {
       "@url": "http://www.dec.ny.gov/outdoor/63442.html"
@@ -1240,7 +1240,7 @@
       "@url": "http://www.dec.ny.gov/outdoor/31495.html"
     },
     "county": "Suffolk",
-    "public_acc": "Shore Fishing - Boat Launch (Hand Launch)",
+    "public_acc": ["Shore Fishing", "Boat Launch"],
     "access_own": "Otis Pike Preserve (DEC)",
     "site_wl": {
       "@url": "http://www.dec.ny.gov/outdoor/23865.html"
@@ -1261,7 +1261,7 @@
     "fish_spec": ["Brown Trout", "Rainbow Trout", "Smallmouth Bass"],
     "comments": "None",
     "county": "Clinton",
-    "public_acc": "Shore Fishing - Public Fishing Rights",
+    "public_acc": ["Shore Fishing"],
     "access_own": "Public Easement",
     "site_wl": {
       "@url": "http://www.dec.ny.gov/docs/fish_marine_pdf/pfrnbchazy.pdf"
@@ -1282,7 +1282,7 @@
     "fish_spec": ["Brown Trout", "Rainbow Trout"],
     "comments": "None",
     "county": "Cayuga",
-    "public_acc": "Shore Fishing - Public Fishing Rights",
+    "public_acc": ["Shore Fishing"],
     "access_own": "Public Easement",
     "site_wl": {
       "@url": "http://www.dec.ny.gov/docs/fish_marine_pdf/r7owascoinpfr.pdf"
@@ -1303,7 +1303,7 @@
     "fish_spec": ["Brown Trout"],
     "comments": "None",
     "county": "Albany",
-    "public_acc": "Shore Fishing - Public Fishing Rights",
+    "public_acc": ["Shore Fishing"],
     "access_own": "Public Easement",
     "site_wl": {
       "@url": "http://www.dec.ny.gov/docs/fish_marine_pdf/pfrcatskillc.pdf"
@@ -1324,7 +1324,7 @@
     "fish_spec": ["Brook Trout", "Brown Trout"],
     "comments": "None",
     "county": "Otsego",
-    "public_acc": "Shore Fishing - Public Fishing Rights",
+    "public_acc": ["Shore Fishing"],
     "access_own": "Public Easement",
     "site_wl": {
       "@url": "http://www.dec.ny.gov/docs/fish_marine_pdf/pfrbuternut.pdf"
@@ -1348,7 +1348,7 @@
       "@url": "http://www.dec.ny.gov/outdoor/31505.html"
     },
     "county": "Wyoming",
-    "public_acc": "Shore Fishing - Public Fishing Rights",
+    "public_acc": ["Shore Fishing"],
     "access_own": "Public Easement",
     "site_wl": {
       "@url": "http://www.dec.ny.gov/docs/fish_marine_pdf/wiscoy.pdf"
@@ -1372,7 +1372,7 @@
       "@url": "http://www.dec.ny.gov/outdoor/31470.html"
     },
     "county": "Oneida",
-    "public_acc": "Shore Fishing - Public Fishing Rights",
+    "public_acc": ["Shore Fishing"],
     "access_own": "Public Easement",
     "point_x": "-75.249004417",
     "point_y": "43.479243148",
@@ -1400,7 +1400,7 @@
       "@url": "http://www.dec.ny.gov/outdoor/31431.html"
     },
     "county": "Broome",
-    "public_acc": "Boat Launch (Trailer Improved)",
+    "public_acc": ["Boat Launch"],
     "access_own": "DEC",
     "site_wl": {
       "@url": "http://www.dec.ny.gov/outdoor/42299.html"
@@ -1424,7 +1424,7 @@
       "@url": "http://www.dec.ny.gov/outdoor/31417.html"
     },
     "county": "Ontario",
-    "public_acc": "Shore Fishing - Public Fishing Rights",
+    "public_acc": ["Shore Fishing"],
     "access_own": "Public Easement - High Tor State Wildlife Management Area (DEC)",
     "site_wl": {
       "@url": "http://www.dec.ny.gov/docs/fish_marine_pdf/pfrnaplesck.pdf"
@@ -1459,7 +1459,7 @@
       "@url": "http://www.dec.ny.gov/outdoor/31479.html"
     },
     "county": "Rensselear",
-    "public_acc": "Shore Fishing - Boat Launch (Trailer Improved)",
+    "public_acc": ["Shore Fishing"],
     "access_own": "Municipal",
     "site_wl": {
       "@url": "http://www.dec.ny.gov/outdoor/23874.html"
@@ -1483,7 +1483,7 @@
       "@url": "http://www.dec.ny.gov/outdoor/31471.html"
     },
     "county": "Onondaga",
-    "public_acc": "Shore Fishing - Public Fishing Rights",
+    "public_acc": ["Shore Fishing"],
     "access_own": "Public Easement",
     "site_wl": {
       "@url": "http://www.dec.ny.gov/docs/fish_marine_pdf/r7buttnutpfr.pdf"
@@ -1517,7 +1517,7 @@
       "@url": "http://www.dec.ny.gov/outdoor/31510.html"
     },
     "county": "Clinton",
-    "public_acc": "Boat Launch (Trailer Improved)",
+    "public_acc": ["Boat Launch"],
     "access_own": "New York State Parks",
     "site_wl": {
       "@url": "http://www.dec.ny.gov/outdoor/23904.html"
@@ -1545,7 +1545,7 @@
     ],
     "comments": "None",
     "county": "Onondaga",
-    "public_acc": "Boat Launch (Trailer Improved)",
+    "public_acc": ["Boat Launch"],
     "access_own": "DEC",
     "site_wl": {
       "@url": "http://www.dec.ny.gov/outdoor/23881.html"
@@ -1569,7 +1569,7 @@
       "@url": "http://www.dec.ny.gov/outdoor/31436.html"
     },
     "county": "Chenango",
-    "public_acc": "Boat Launch (Hand Launch)",
+    "public_acc": ["Boat Launch"],
     "access_own": "DEC",
     "site_wl": {
       "@url": "http://www.dec.ny.gov/outdoor/63442.html"
@@ -1600,7 +1600,7 @@
     ],
     "comments": "None",
     "county": "Saratoga",
-    "public_acc": "Shore Fishing - Boat Launch (Trailer Improved)",
+    "public_acc": ["Shore Fishing"],
     "access_own": "New York State Parks",
     "site_wl": {
       "@url": "http://www.dec.ny.gov/outdoor/23872.html"
@@ -1621,7 +1621,7 @@
     "fish_spec": ["Brook Trout"],
     "comments": "None",
     "county": "Oswego",
-    "public_acc": "Shore Fishing - Public Fishing Rights",
+    "public_acc": ["Shore Fishing"],
     "access_own": "Public Easement",
     "site_wl": {
       "@url": "http://www.dec.ny.gov/docs/fish_marine_pdf/r7nbrsalrpfr.pdf"
@@ -1642,7 +1642,7 @@
     "fish_spec": ["Brown Trout"],
     "comments": "None",
     "county": "Greene",
-    "public_acc": "Shore Fishing - Public Fishing Rights",
+    "public_acc": ["Shore Fishing"],
     "access_own": "Public Easement",
     "site_wl": {
       "@url": "http://www.dec.ny.gov/docs/fish_marine_pdf/pfrcatskillc.pdf"
