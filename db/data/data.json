@@ -96,7 +96,8 @@
       "Crappie",
       "Tiger Musky",
       "Northern Pike",
-      "Walleye - Carp"
+      "Walleye",
+      "Carp"
     ],
     "comments": "None",
     "county": "Schenectady",
@@ -193,7 +194,8 @@
       "Sunfish",
       "Muskellunge",
       "Northern Pike",
-      "Walleye - Carp",
+      "Walleye",
+      "Carp",
       "Channel Catfish"
     ],
     "comments": "None",
@@ -322,12 +324,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-yfd4~mse9.jtge",
     "name": "Delaware River (Lower)",
-    "fish_spec": [
-      "Smallmouth Bass",
-      " Muskellunge ",
-      "Walleye ",
-      "Striped Bass"
-    ],
+    "fish_spec": ["Smallmouth Bass", "Muskellunge ", "Walleye", "Striped Bass"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31496.html"
@@ -613,7 +610,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-crpd.wnr6_9cci",
     "name": "Eighteen Mile Creek",
-    "fish_spec": "Brown Trout* - Steelhead* - Smallmouth Bass",
+    "fish_spec": ["Brown Trout", "Steelhead", "Smallmouth Bass"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31420.html"
@@ -637,7 +634,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-m69z-7m6v~2yhk",
     "name": "Cryder Creek",
-    "fish_spec": "Brook Trout - Brown Trout*",
+    "fish_spec": ["Brook Trout", "Brown Trout"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31494.html"
@@ -661,7 +658,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-dw63.nejg_7ahc",
     "name": "East Branch Fish Creek",
-    "fish_spec": "Brook Trout - Brown Trout* - Atlantic Salmon*",
+    "fish_spec": ["Brook Trout", "Brown Trout", "Atlantic Salmon"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31456.html"
@@ -685,7 +682,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-s936-n43q-jnw5",
     "name": "Charlotte Creek",
-    "fish_spec": "Brook Trout - Brown Trout*",
+    "fish_spec": ["Brook Trout", "Brown Trout"],
     "comments": "None",
     "county": "Delaware",
     "public_acc": "Shore Fishing - Public Fishing Rights",
@@ -706,7 +703,13 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-eckc~wdjf-qfjd",
     "name": "East Branch Delaware River (Lower)",
-    "fish_spec": "Brook Trout - Brown Trout* - Rainbow Trout - Smallmouth Bass - Walleye",
+    "fish_spec": [
+      "Brook Trout",
+      "Brown Trout",
+      "Rainbow Trout",
+      "Smallmouth Bass",
+      "Walleye"
+    ],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31440.html"
@@ -730,7 +733,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-xrzz_pakf~spqw",
     "name": "Catharine Creek",
-    "fish_spec": "Rainbow Trout",
+    "fish_spec": ["Rainbow Trout"],
     "comments": "None",
     "county": "Schuyler",
     "public_acc": "Shore Fishing - Public Fishing Rights",
@@ -751,7 +754,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-pyh3.jnnh-wd96",
     "name": "Black River",
-    "fish_spec": "Brook Trout* - Brown Trout* - Rainbow Trout*",
+    "fish_spec": ["Brook Trout", "Brown Trout", "Rainbow Trout"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31456.html"
@@ -772,7 +775,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-558d~gzx3~2j55",
     "name": "Otselic River",
-    "fish_spec": "Brown Trout* - Walleye",
+    "fish_spec": ["Brown Trout", "Walleye"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31436.html"
@@ -796,7 +799,19 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-sdw7.vzpt~xtj7",
     "name": "Hudson River (Lower)",
-    "fish_spec": "Smallmouth Bass - Largemouth Bass - Sunfish - Yellow Perch - Crappie - Tiger Musky - Northern Pike - Walleye - Carp - Channel Catfish - Striped bass",
+    "fish_spec": [
+      "Smallmouth Bass",
+      "Largemouth Bass",
+      "Sunfish",
+      "Yellow Perch",
+      "Crappie",
+      "Tiger Musky",
+      "Northern Pike",
+      "Walleye",
+      "Carp",
+      "Channel Catfish",
+      "Striped bass"
+    ],
     "comments": "Anglers fishing for migratory marine species must enroll in the recreational marine fishing registry (518-402-8843).",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31500.html"
@@ -820,7 +835,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-k6ik_pa9d-6i9a",
     "name": "Kayaderosseras Creek",
-    "fish_spec": "Brown Trout* - Rainbow Trout",
+    "fish_spec": ["Brown Trout", "Rainbow Trout"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31482.html"
@@ -844,7 +859,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-fxmc~f3gu_qi49",
     "name": "Marsh Creek",
-    "fish_spec": "Brown Trout - Chinook Salmon - Coho Salmon - Steelhead*",
+    "fish_spec": ["Brown Trout", "Chinook Salmon", "Coho Salmon", "Steelhead"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31420.html"
@@ -868,7 +883,14 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-wzer-kqd4.e9w4",
     "name": "Salmon River",
-    "fish_spec": "Brown Trout* - Steelhead* - Chinook Salmon* - Coho Salmon* - Atlantic Salmon* - Smallmouth Bass",
+    "fish_spec": [
+      "Brown Trout",
+      "Steelhead",
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Atlantic Salmon",
+      "Smallmouth Bass"
+    ],
     "comments": "None",
     "county": "Oswego",
     "public_acc": "Shore Fishing - Public Fishing Rights",
@@ -889,7 +911,14 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-vbga-fdhy_anpp",
     "name": "Salmon River",
-    "fish_spec": "Brown Trout* - Steelhead* - Chinook Salmon* - Coho Salmon* - Atlantic Salmon* - Smallmouth Bass",
+    "fish_spec": [
+      "Brown Trout",
+      "Steelhead",
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Atlantic Salmon",
+      "Smallmouth Bass"
+    ],
     "comments": "None",
     "county": "Oswego",
     "public_acc": "Shore Fishing - Public Fishing Rights",
@@ -910,7 +939,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-n58q~cxrv~u3i3",
     "name": "Timmerman Creek",
-    "fish_spec": "Brown Trout*",
+    "fish_spec": ["Brown Trout"],
     "comments": "None",
     "county": "Montgomery",
     "point_x": "-74.683940305",
@@ -926,7 +955,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-kag8-hnwh~3efs",
     "name": "Esopus Creek",
-    "fish_spec": "Brook Trout - Brown Trout* - Rainbow Trout",
+    "fish_spec": ["Brook Trout", "Brown Trout", "Rainbow Trout"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31500.html"
@@ -950,7 +979,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-6fja-sn3b-hwf6",
     "name": "Ischua Creek",
-    "fish_spec": "Brook Trout* - Brown Trout*",
+    "fish_spec": ["Brook Trout", "Brown Trout"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31432.html"
@@ -974,7 +1003,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-zp8y_65t9.bfuy",
     "name": "Chenango River",
-    "fish_spec": "Brown Trout",
+    "fish_spec": ["Brown Trout"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31460.html"
@@ -998,7 +1027,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-rq73.dp7q.833x",
     "name": "West Branch Delaware River (Upper)",
-    "fish_spec": "Brook Trout - Brown Trout*",
+    "fish_spec": ["Brook Trout", "Brown Trout"],
     "comments": "NYCDEP permit required (1-800-574-LAND).",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31440.html"
@@ -1022,7 +1051,17 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-5598~qpac_qhgy",
     "name": "Oswegatchie River",
-    "fish_spec": "Smallmouth Bass - Largemouth Bass - Sunfish - Yellow Perch - Crappie - Northern Pike - Walleye - Carp - Channel Catfish",
+    "fish_spec": [
+      "Smallmouth Bass",
+      "Largemouth Bass",
+      "Sunfish",
+      "Yellow Perch",
+      "Crappie",
+      "Northern Pike",
+      "Walleye",
+      "Carp",
+      "Channel Catfish"
+    ],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31493.html"
@@ -1046,7 +1085,17 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-ve52_bhv6-ziy4",
     "name": "Indian River",
-    "fish_spec": "Smallmouth Bass - Largemouth Bass - Sunfish - Yellow Perch - Crappie - Northern Pike - Walleye - Carp - Channel Catfish",
+    "fish_spec": [
+      "Smallmouth Bass",
+      "Largemouth Bass",
+      "Sunfish",
+      "Yellow Perch",
+      "Crappie",
+      "Northern Pike",
+      "Walleye",
+      "Carp",
+      "Channel Catfish"
+    ],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31493.html"
@@ -1070,7 +1119,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-45cp_qih2.95ci",
     "name": "East Branch Ausable River",
-    "fish_spec": "Brook Trout* - Brown Trout* - Rainbow Trout*",
+    "fish_spec": ["Brook Trout", "Brown Trout", "Rainbow Trout"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31443.html"
@@ -1094,7 +1143,13 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-auaj.qm6r~mijh",
     "name": "Chemung River",
-    "fish_spec": "Smallmouth Bass - Tiger Musky* - Walleye - Carp - Channel Catfish",
+    "fish_spec": [
+      "Smallmouth Bass",
+      "Tiger Musky",
+      "Walleye",
+      "Carp",
+      "Channel Catfish"
+    ],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31435.html"
@@ -1118,7 +1173,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-52bu~xj3p.bxkd",
     "name": "Catharine Creek",
-    "fish_spec": "Rainbow Trout",
+    "fish_spec": ["Rainbow Trout"],
     "comments": "None",
     "county": "Schuyler",
     "public_acc": "Shore Fishing - Public Fishing Rights",
@@ -1139,7 +1194,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-r8hn-mnyv-5ta7",
     "name": "Chenango River",
-    "fish_spec": "Muskellunge - Northern Pike - Walleye - Carp",
+    "fish_spec": ["Muskellunge", "Northern Pike", "Walleye", "Carp"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31436.html"
@@ -1163,7 +1218,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-7hu4.irqq-d2hp",
     "name": "Arnold Brook",
-    "fish_spec": "Brook Trout - Brown Trout*",
+    "fish_spec": ["Brook Trout", "Brown Trout"],
     "comments": "None",
     "county": "Clinton",
     "point_x": "-73.541982496",
@@ -1179,7 +1234,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-ivmc_3cx6-4hpp",
     "name": "Upper Peconic River",
-    "fish_spec": "Largemouth Bass - Sunfish - Chain Pickerel",
+    "fish_spec": ["Largemouth Bass", "Sunfish", "Chain Pickerel"],
     "comments": "DEC Access permit required (631-444-0280).",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31495.html"
@@ -1203,7 +1258,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-jg4q~h4h4~fjjx",
     "name": "North Branch Great Chazy River",
-    "fish_spec": "Brown Trout* - Rainbow Trout* - Smallmouth Bass",
+    "fish_spec": ["Brown Trout", "Rainbow Trout", "Smallmouth Bass"],
     "comments": "None",
     "county": "Clinton",
     "public_acc": "Shore Fishing - Public Fishing Rights",
@@ -1224,7 +1279,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-cj5b.8ky4_kdt9",
     "name": "Owasco Inlet",
-    "fish_spec": "Brown Trout* Rainbow Trout*",
+    "fish_spec": ["Brown Trout", "Rainbow Trout"],
     "comments": "None",
     "county": "Cayuga",
     "public_acc": "Shore Fishing - Public Fishing Rights",
@@ -1245,7 +1300,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-sqd5.46pi_bg3a",
     "name": "Catskill Creek",
-    "fish_spec": "Brown Trout*",
+    "fish_spec": ["Brown Trout"],
     "comments": "None",
     "county": "Albany",
     "public_acc": "Shore Fishing - Public Fishing Rights",
@@ -1266,7 +1321,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-j4xi.3qpi_c883",
     "name": "Butternut Creek",
-    "fish_spec": "Brook Trout - Brown Trout*",
+    "fish_spec": ["Brook Trout", "Brown Trout"],
     "comments": "None",
     "county": "Otsego",
     "public_acc": "Shore Fishing - Public Fishing Rights",
@@ -1287,7 +1342,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-i2be~sq38~7ycv",
     "name": "Wiscoy Creek",
-    "fish_spec": "Brook Trout - Brown Trout",
+    "fish_spec": ["Brook Trout", "Brown Trout"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31505.html"
@@ -1311,7 +1366,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-k9ux~rz2x.mb8v",
     "name": "Black River",
-    "fish_spec": "Brook Trout* - Brown Trout* - Rainbow Trout*",
+    "fish_spec": ["Brook Trout", "Brown Trout", "Rainbow Trout"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31470.html"
@@ -1332,7 +1387,14 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-sfbe-rp6p.f96b",
     "name": "Susquehanna River",
-    "fish_spec": "Smallmouth Bass - Sunfish - Northern Pike - Walleye - Carp - Channel Catfish",
+    "fish_spec": [
+      "Smallmouth Bass",
+      "Sunfish",
+      "Northern Pike",
+      "Walleye",
+      "Carp",
+      "Channel Catfish"
+    ],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31431.html"
@@ -1356,7 +1418,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-2zd6_ggst-kfbz",
     "name": "Naples Creek",
-    "fish_spec": "Brook Trout - Brown Trout - Rainbow Trout",
+    "fish_spec": ["Brook Trout", "Brown Trout", "Rainbow Trout"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31417.html"
@@ -1380,7 +1442,18 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-jthp~2akn_2m8w",
     "name": "Hudson River (Upper Hudson)",
-    "fish_spec": "Smallmouth Bass - Largemouth Bass - Sunfish - Yellow Perch - Crappie - Northern Pike - Chain Pickerel - Walleye - Carp - Channel Catfish",
+    "fish_spec": [
+      "Smallmouth Bass",
+      "Largemouth Bass",
+      "Sunfish",
+      "Yellow Perch",
+      "Crappie",
+      "Northern Pike",
+      "Chain Pickerel",
+      "Walleye",
+      "Carp",
+      "Channel Catfish"
+    ],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31479.html"
@@ -1404,7 +1477,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-pbeb.63hf_zpst",
     "name": "Butternut Creek",
-    "fish_spec": "Brook Trout - Brown Trout*",
+    "fish_spec": ["Brook Trout", "Brown Trout"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31471.html"
@@ -1428,7 +1501,17 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-dje7_72k3_aacy",
     "name": "Great Chazy River",
-    "fish_spec": "Smallmouth Bass - Largemouth Bass - Sunfish - Yellow Perch - Muskellunge - Norhtern Pike - Chain Pickerel - Walleye - Carp",
+    "fish_spec": [
+      "Smallmouth Bass",
+      "Largemouth Bass",
+      "Sunfish",
+      "Yellow Perch",
+      "Muskellunge",
+      "Norhtern Pike",
+      "Chain Pickerel",
+      "Walleye",
+      "Carp"
+    ],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31510.html"
@@ -1452,7 +1535,14 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-j7xc_63uv-q7y2",
     "name": "Oneida River",
-    "fish_spec": "Largemouth Bass - Smallmouth Bass - Crappie - Northern Pike - Carp - Channel Catfish",
+    "fish_spec": [
+      "Largemouth Bass",
+      "Smallmouth Bass",
+      "Crappie",
+      "Northern Pike",
+      "Carp",
+      "Channel Catfish"
+    ],
     "comments": "None",
     "county": "Onondaga",
     "public_acc": "Boat Launch (Trailer Improved)",
@@ -1473,7 +1563,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-uack~9bpq~5sru",
     "name": "Chenango River",
-    "fish_spec": "Muskellunge - Northern Pike - Walleye - Carp",
+    "fish_spec": ["Muskellunge", "Northern Pike", "Walleye", "Carp"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31436.html"
@@ -1497,7 +1587,17 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-rkjm_k7pg_zics",
     "name": "Mohawk River",
-    "fish_spec": "Smallmouth Bass - Largemouth Bass - Sunfish - Yellow Perch - Crappie - Tiger Musky* - Northern Pike - Walleye - Carp",
+    "fish_spec": [
+      "Smallmouth Bass",
+      "Largemouth Bass",
+      "Sunfish",
+      "Yellow Perch",
+      "Crappie",
+      "Tiger Musky",
+      "Northern Pike",
+      "Walleye",
+      "Carp"
+    ],
     "comments": "None",
     "county": "Saratoga",
     "public_acc": "Shore Fishing - Boat Launch (Trailer Improved)",
@@ -1518,7 +1618,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-2gjn.4epp.cyw4",
     "name": "North Branch Salmon River",
-    "fish_spec": "Brook Trout*",
+    "fish_spec": ["Brook Trout"],
     "comments": "None",
     "county": "Oswego",
     "public_acc": "Shore Fishing - Public Fishing Rights",
@@ -1539,7 +1639,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-tjqp.p9wz.aszd",
     "name": "Catskill Creek",
-    "fish_spec": "Brown Trout*",
+    "fish_spec": ["Brown Trout"],
     "comments": "None",
     "county": "Greene",
     "public_acc": "Shore Fishing - Public Fishing Rights",
@@ -1560,7 +1660,18 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-g2wc-whxg-wmmg",
     "name": "Niagara River (Lower)",
-    "fish_spec": "Brown Trout* - Steelhead* - Chinook Salmon* - Coho Salmon* - Lake Trout - Smallmouth Bass - Yellow Perch - Muskellunge - Walleye* - Carp",
+    "fish_spec": [
+      "Brown Trout",
+      "Steelhead",
+      "Chinook Salmon",
+      "Coho Salmon",
+      "Lake Trout",
+      "Smallmouth Bass",
+      "Yellow Perch",
+      "Muskellunge",
+      "Walleye",
+      "Carp"
+    ],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31425.html"
@@ -1584,7 +1695,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-6abz~2qzc-jwhn",
     "name": "East Branch Owego Creek",
-    "fish_spec": "Brook Trout - Brown Trout*",
+    "fish_spec": ["Brook Trout - Brown Trout"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31498.html"
@@ -1608,7 +1719,17 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-pxja.qydr~srt9",
     "name": "Mohawk River",
-    "fish_spec": "Smallmouth Bass - Largemouth Bass - Sunfish - Yellow Perch - Crappie - Tiger Musky* - Northern Pike - Walleye - Carp",
+    "fish_spec": [
+      "Smallmouth Bass",
+      "Largemouth Bass",
+      "Sunfish",
+      "Yellow Perch",
+      "Crappie",
+      "Tiger Musky",
+      "Northern Pike",
+      "Walleye",
+      "Carp"
+    ],
     "comments": "None",
     "county": "Montgomery",
     "public_acc": "Shore Fishing",
@@ -1626,7 +1747,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-4i33_c2wj~iddn",
     "name": "West Canada Creek",
-    "fish_spec": "Brook Trout* - Brown Trout*",
+    "fish_spec": ["Brook Trout", "Brown Trout"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31453.html"
@@ -1650,7 +1771,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-xhti_9cbn_4x4r",
     "name": "Sandy Creek",
-    "fish_spec": "Brown Trout* - Steelhead - Coho Salmon - Chinook Salmon",
+    "fish_spec": ["Brown Trout", "Steelhead", "Coho Salmon", "Chinook Salmon"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31420.html"
@@ -1674,7 +1795,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-waxh_xuvt.625v",
     "name": "Willowemoc Creek",
-    "fish_spec": "Brown Trout* - Rainbow Trout",
+    "fish_spec": ["Brown Trout", "Rainbow Trout"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31496.html"
@@ -1698,7 +1819,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-dwc7_uzdu_2q6p",
     "name": "Carmans River",
-    "fish_spec": "Brook Trout* - Brown Trout* - Rainbow Trout*",
+    "fish_spec": ["Brook Trout", "Brown Trout", "Rainbow Trout"],
     "comments": "Tidal",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31495.html"
@@ -1722,7 +1843,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-hp75-s4nj_zbix",
     "name": "Carmans River",
-    "fish_spec": "Brook Trout* - Brown Trout* - Rainbow Trout*",
+    "fish_spec": ["Brook Trout", "Brown Trout", "Rainbow Trout"],
     "comments": "Suffolk county permit required (631-854-4949).",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31495.html"
@@ -1743,7 +1864,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-y37v-scny.k7n4",
     "name": "West Canada Creek",
-    "fish_spec": "Brook Trout* - Brown Trout*",
+    "fish_spec": ["Brook Trout", "Brown Trout"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31453.html"
@@ -1767,7 +1888,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-6rr6-2h7e-txjj",
     "name": "North Branch Saranac River",
-    "fish_spec": "Brook Trout - Brown Trout*",
+    "fish_spec": ["Brook Trout", "Brown Trout"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31437.html"
@@ -1791,7 +1912,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-3cji_muhc-mm3s",
     "name": "East Branch Delaware River (Lower)",
-    "fish_spec": "Brook Trout - Brown Trout* - Rainbow Trout",
+    "fish_spec": ["Brook Trout", "Brown Trout", "Rainbow Trout"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31440.html"
@@ -1815,7 +1936,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-mbs9_jrbd~ngdr",
     "name": "Schoharie Creek (Lower)",
-    "fish_spec": "Smallmouth Bass - Walleye - Carp",
+    "fish_spec": ["Smallmouth Bass", "Walleye", "Carp"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31490.html"
@@ -1839,7 +1960,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-z6am.t8yk.9rrp",
     "name": "North Branch Great Chazy River",
-    "fish_spec": "Brown Trout* - Rainbow Trout* - Smallmouth Bass",
+    "fish_spec": ["Brown Trout", "Rainbow Trout", "Smallmouth Bass"],
     "comments": "None",
     "county": "Clinton",
     "public_acc": "Shore Fishing - Public Fishing Rights",
@@ -1860,7 +1981,14 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-bua2.2f42~4xse",
     "name": "Tonawanda Creek (Barge Canal)",
-    "fish_spec": "Smallmouth Bass - Largemouth Bass - Sunfish - Northern Pike - Walleye - Carp",
+    "fish_spec": [
+      "Smallmouth Bass",
+      "Largemouth Bass",
+      "Sunfish",
+      "Northern Pike",
+      "Walleye",
+      "Carp"
+    ],
     "comments": "None",
     "county": "Erie",
     "public_acc": "Shore Fishing - Boat Launch (Trailer Improved)",
@@ -1881,7 +2009,7 @@
     "@_position": "0",
     "@_address": "https://data.ny.gov/resource/fishinglocations/row-gpbt_thwm~hee6",
     "name": "Massapequa Creek",
-    "fish_spec": "Brown Trout* - Rainbow Trout*",
+    "fish_spec": ["Brown Trout", "Rainbow Trout"],
     "comments": "None",
     "spec_regs": {
       "@url": "http://www.dec.ny.gov/outdoor/31466.html"
