@@ -1,7 +1,9 @@
 const express = require("express");
 const app = express();
 const fishingSpot = require("./db/modules/fishingSpot");
+const parser = require("body-parser");
 
+app.use(parser.json());
 app.get("/", function(req, res) {
   fishingSpot.find({}).then(fishingData => res.json(fishingData));
 });
@@ -22,10 +24,21 @@ app.get("/county/:county", function(req, res) {
     res.json(fishingSpot);
   });
 });
-app.get("/map/:map", function(req, res) {
-  fishingSpot.find({ public_map: req.params.public_map }).then(fishingSpot => {
+app.post("/", (req, res) => {
+  fishingSpot.create(req.body).then(fishingSpot => {
     res.json(fishingSpot);
   });
+});
+app.post("/:id/fish_types/:fish_types", (req, res) => {
+  fishingSpot
+    .findByIdAndUpdate(
+      req.params.id,
+      { $push: { fish_types: req.body } },
+      { new: true }
+    )
+    .then(fishingSpot => {
+      res.json(fishingSpot);
+    });
 });
 
 app.listen(3000, () => console.log("listening on port 3000"));

@@ -52,7 +52,7 @@
     "public_acc": ["Shore Fishing"],
     "access_own": "Public Easement",
     "site_wl": {
-      "@url": "http://www.dec.ny.gov/docs/fish_marine_pdf/pfrstonyck.pdf"
+      "url": "http://www.dec.ny.gov/docs/fish_marine_pdf/pfrstonyck.pdf"
     },
     "point_x": "-76.200169676",
     "point_y": "43.837479812",
@@ -150,7 +150,7 @@
     "public_acc": ["Shore Fishing"],
     "access_own": "Public Easement",
     "site_wl": {
-      "@url": "http://www.dec.ny.gov/docs/fish_marine_pdf/pfresopusck.pdf"
+      "url": "http://www.dec.ny.gov/docs/fish_marine_pdf/pfresopusck.pdf"
     },
     "point_x": "-74.285666094",
     "point_y": "42.049169943",
@@ -174,7 +174,7 @@
     "public_acc": ["Shore Fishing"],
     "access_own": "Public Easement",
     "site_wl": {
-      "@url": "http://www.dec.ny.gov/docs/fish_marine_pdf/pfresopusck.pdf"
+      "url": "http://www.dec.ny.gov/docs/fish_marine_pdf/pfresopusck.pdf"
     },
     "point_x": "-74.271508657",
     "point_y": "42.002739173",
@@ -203,7 +203,7 @@
     "public_acc": ["Boat Launch"],
     "access_own": "DEC",
     "site_wl": {
-      "@url": "http://www.dec.ny.gov/outdoor/42299.html"
+      "url": "http://www.dec.ny.gov/outdoor/42299.html"
     },
     "point_x": "-74.975157819",
     "point_y": "42.504856486",
@@ -237,7 +237,7 @@
     "public_acc": ["Shore Fishing", "Boat Launch"],
     "access_own": "Gratwick Riverside Park (Municipal)",
     "site_wl": {
-      "@url": "http://www.dec.ny.gov/outdoor/23883.html"
+      "url": "http://www.dec.ny.gov/outdoor/23883.html"
     },
     "point_x": "-78.899280741",
     "point_y": "43.053921139",

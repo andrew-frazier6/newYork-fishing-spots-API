@@ -7,7 +7,7 @@ const fishingSpot = new Schema({
   county: String,
   public_access: [String],
   location: Object,
-  public_map: Object
+  map: Object
 });
 
 module.exports = mongoose.model("fishingSpot", fishingSpot);

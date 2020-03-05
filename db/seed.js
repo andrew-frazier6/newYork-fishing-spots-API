@@ -8,7 +8,7 @@ const fishData = data.map(item => {
     (fishingSpots.public_access = item.public_acc),
     (fishingSpots.county = item.county),
     (fishingSpots.location = item.location),
-    (fishingSpots.public_map = item.site_wl);
+    (fishingSpots.map = item.site_wl);
   return fishingSpots;
 });
 
