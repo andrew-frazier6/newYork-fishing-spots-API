@@ -41,7 +41,13 @@ app.post("/:id/fish_types/:fish_types", (req, res) => {
     });
 });
 
-app.listen(3000, () => console.log("listening on port 3000"));
+app.set("port", process.env.PORT || 3000);
+
+app.listen(app.get("port"), () => {
+  console.log(`✅ PORT: ${app.get("port")} 🌟`);
+});
+
+// app.listen(3000, () => console.log("listening on port 3000"));
 
 // set conditional for get request and for seeding so that both are set
 // to lower case
