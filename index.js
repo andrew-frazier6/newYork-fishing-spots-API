@@ -22,6 +22,11 @@ app.get("/county/:county", function(req, res) {
     res.json(fishingSpot);
   });
 });
+app.get("/map/:map", function(req, res) {
+  fishingSpot.find({ public_map: req.params.public_map }).then(fishingSpot => {
+    res.json(fishingSpot);
+  });
+});
 
 app.listen(3000, () => console.log("listening on port 3000"));
 
