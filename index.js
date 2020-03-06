@@ -24,6 +24,11 @@ app.get("/county/:county", function(req, res) {
     res.json(fishingSpot);
   });
 });
+app.get("/map/", function(req, res) {
+  fishingSpot.find({ map: req.params.map }).then(fishingSpot => {
+    res.json(fishingSpot);
+  });
+});
 app.post("/", (req, res) => {
   fishingSpot.create(req.body).then(fishingSpot => {
     res.json(fishingSpot);
