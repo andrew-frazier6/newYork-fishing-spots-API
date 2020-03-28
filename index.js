@@ -40,7 +40,7 @@ app.get("/map/", function(req, res) {
     res.json(fishingSpot);
   });
 });
-app.post("/", (req, res) => {
+app.post("/create", (req, res) => {
   fishingSpot.create(req.body).then(fishingSpot => {
     res.json(fishingSpot);
   });
