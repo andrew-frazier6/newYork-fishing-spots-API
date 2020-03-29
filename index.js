@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const fishingSpot = require("./db/modules/fishingSpot");
+const fishingSpot = require("./db/models/fishingSpot");
 const parser = require("body-parser");
 
 app.use(parser.json());
@@ -40,7 +40,7 @@ app.get("/map/", function(req, res) {
     res.json(fishingSpot);
   });
 });
-app.post("/create", (req, res) => {
+app.post("/newspot/create", (req, res) => {
   fishingSpot.create(req.body).then(fishingSpot => {
     res.json(fishingSpot);
   });

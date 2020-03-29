@@ -1,5 +1,5 @@
 const data = require("../db/data/data.json");
-const fishingSpots = require("../db/modules/fishingSpot");
+const fishingSpots = require("../db/models/fishingSpot");
 
 const fishData = data.map(item => {
   const fishingSpots = {};

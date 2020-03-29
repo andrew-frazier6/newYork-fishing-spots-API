@@ -2,13 +2,21 @@
 
 - List of all fishing spots with, fish types, docking types and informational handouts in the state of New York.
 
-- Search for all spots "/"
-
-- search by fish type "/:id/fish_types/:fish_types"
-
-## POST:
+## CREATE:
 
 - create a fishing spot "/create"
+
+## READ:
+
+- Search the full database "/"
+
+- search by fish type "/fish_types/:fish_types/"
+
+- search by public access "/public_access/:public_access"
+
+- search by county "county/:county/"
+
+- MOST IMPORTANTLY, if you need to add a new species to a spot please do "/:id/fish_types/:fish_types"
 
 ## MODEL
 
