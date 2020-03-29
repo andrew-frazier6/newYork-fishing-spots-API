@@ -4,7 +4,7 @@
 
 ## CREATE:
 
-- create a fishing spot "/create"
+- create a fishing spot "/newspot/create"
 
 ## READ:
 

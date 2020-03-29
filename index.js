@@ -3,6 +3,7 @@ const app = express();
 const fishingSpot = require("./db/models/fishingSpot");
 const parser = require("body-parser");
 
+app.use(parser.urlencoded({ extended: true }));
 app.use(parser.json());
 // CORS
 app.use(function(req, res, next) {
@@ -10,7 +11,7 @@ app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Headers", "Content-Type,Authorization");
   res.header("Access-Control-Allow-Methods", "GET,POST,PUT,PATCH,DELETE");
   if (req.method === "OPTIONS") {
-    return res.send(204);
+    return res.sendStatus(204);
   }
   next();
 });
@@ -40,11 +41,24 @@ app.get("/map/", function(req, res) {
     res.json(fishingSpot);
   });
 });
+
+//->>>> CREATE
 app.post("/newspot/create", (req, res) => {
-  fishingSpot.create(req.body).then(fishingSpot => {
-    res.json(fishingSpot);
-  });
+  console.log(req.body);
+  let { location, name, fishTypes, publicAccess } = req.body;
+  fishingSpot
+    .create({
+      location,
+      name,
+      fish_types: fishTypes,
+      public_access: publicAccess
+    })
+    .then(fishingSpot => {
+      res.json(fishingSpot);
+    });
 });
+//->>>> CREATE
+
 app.post("/:id/fish_types/:fish_types", (req, res) => {
   fishingSpot
     .findByIdAndUpdate(
