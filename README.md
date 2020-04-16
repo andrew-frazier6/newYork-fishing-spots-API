@@ -2,6 +2,8 @@
 
 - List of all fishing spots with, fish types, docking types and informational handouts in the state of New York.
 
+- This is the deployed API on Heroku https://newyork-fish-api6.herokuapp.com/
+
 ## CREATE:
 
 - create a fishing spot "/newspot/create"
